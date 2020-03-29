@@ -11,25 +11,36 @@
 }
 
 .footer{
-    background-color: #A4B0BD;
+    background-color: #586776;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
 }
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background: #9575CD ;
+    background: #333945 ;
     color:floralwhite;
 }
 
 address{
     font-size:80%;
     margin:0px;
-    color:#0f0f0f;
+    color: black;
+}
+address a{
+    text-decoration: none;
+    color: white;
+}
+.add{
+    color: white;
+}
+.blacki{
+    color: black;
 }
 
 .navbar-dark {
-    background-color: #512DA8;
+    background-color: black;
+    
 }
 
 .page-enter {
@@ -52,4 +63,16 @@ address{
     opacity: 0.01;
     transform: translateX(100%);
     transition: all 300ms ease-out;
+}
+
+#login1{
+    z-index: 100;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.lidt{
+    text-decoration: none;
+    color: white;
 }

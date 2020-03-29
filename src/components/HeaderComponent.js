@@ -43,9 +43,9 @@ class Header extends Component {
           <Navbar dark className="creative" expand="md">
               <div className="container">
                   <NavbarToggler onClick={this.toggleNav} />
-                  <NavbarBrand className="mr-auto" href="/"><img src='assets/images/logo.png' height="30" width="41" alt='Ristorante Con Fusion' /></NavbarBrand>
+                  <NavbarBrand className="ml-auto" href="/"><img src='assets/images/logo.png' height="30" width="41" alt='Ristorante Con Fusion' /></NavbarBrand>
                   <Collapse isOpen={this.state.isNavOpen} navbar>
-                      <Nav navbar >
+                      <Nav class="naving" navbar >
                       <NavItem>
                           <NavLink className="nav-link"  to='/home'><span className="fa fa-home fa-lg"></span> Home</NavLink>
                       </NavItem>
@@ -61,7 +61,7 @@ class Header extends Component {
                       </Nav>
                       <Nav className="ml-auto" navbar>
                           <NavItem>
-                              <Button outline onClick={this.toggleModal}><span className="fa fa-sign-in fa-lg" id="lbutton"></span> Login</Button>
+                              <Button outline onClick={this.toggleModal} id="login1"><span className="fa fa-sign-in fa-lg" id="lbutton"></span> Login</Button>
                           </NavItem>
                       </Nav>
                             
@@ -78,6 +78,8 @@ class Header extends Component {
                   </div>
               </div>
           </Jumbotron>
+          <br>
+          </br>
           <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
               <ModalHeader toggle={this.toggleModal}>Login</ModalHeader>
               <ModalBody>

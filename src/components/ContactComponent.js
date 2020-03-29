@@ -192,7 +192,7 @@ class Contact extends Component{
                             </Row>
                             <Row className="form-group">
                                 <Col md={{size:10, offset: 2}}>
-                                    <Button type="submit" color="primary">
+                                    <Button type="submit" color="dark">
                                     Send Feedback
                                     </Button>
                                 </Col>
